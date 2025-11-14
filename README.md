@@ -1,0 +1,2 @@
+# Highly-Available-EC2-Web-Server-Setup-using-ALB-and-Auto-Scaling-Group
+This project sets up a web server on EC2 with an Application Load Balancer and Auto Scaling. The ALB sends traffic to multiple EC2 instances, and the Auto Scaling Group automatically adds or replaces servers when needed. A launch template installs Apache on every new instance. This setup makes the website highly available, scalable, and reliable.
